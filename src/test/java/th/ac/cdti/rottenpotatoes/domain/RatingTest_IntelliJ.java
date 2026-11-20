@@ -10,3 +10,4 @@ class RatingTest {
         assertThatThrownBy(() -> Rating.fromLabel("X")).isInstanceOf(IllegalArgumentException.class);
     }
 }
+
