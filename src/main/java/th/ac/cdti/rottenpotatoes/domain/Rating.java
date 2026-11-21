@@ -9,5 +9,10 @@ public enum Rating {
             if (r.label.equals(label)) { return r; }
         }
         throw new IllegalArgumentException("unknown rating: " + label);
+<<<<<<< HEAD
         }
     }
+=======
+    }
+}
+>>>>>>> 6622cd814f99d74d2976a83531b40df3f99876c4
