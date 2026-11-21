@@ -11,4 +11,3 @@ public enum Rating {
         throw new IllegalArgumentException("unknown rating: " + label);
         }
     }
-    
